@@ -32,3 +32,17 @@ console.log(fruitObjects);
 
 // let indexOf=arr.indexOf('Orange');
 // console.log(indexOf);
+
+
+
+/*export const DataTable=({rows,columns})=>{
+return <table>
+    <thead>
+    {columns.map((columns)=> (<td key ={column.prop}>{column.title}</td>))}
+</thead>
+<tbody>
+{columns.map((column) => <td key={column.prop}>{row(column.prop)}</td>)}
+</tbody>
+</table>
+}
+*/
